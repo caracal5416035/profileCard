@@ -29,10 +29,10 @@
 }
 
 .pc-card-wrapper {
-  perspective: 500px;
-  transform: translate3d(0, 0, 0.1px);
-  position: relative;
-  touch-action: none;
+  position: absolute;
+  top: 0px; /* jarak dari atas */
+  left: 50%;
+  transform: translateX(-50%); /* agar benar-benar di tengah horizontal */
 }
 
 .pc-card-wrapper::before {
