@@ -30,7 +30,7 @@
 
 .pc-card-wrapper {
   position: absolute;
-  top: 25px; /* jarak dari atas */
+  top: 50px; /* jarak dari atas */
   left: 50%;
   transform: translateX(-50%); /* agar benar-benar di tengah horizontal */
 }
@@ -331,7 +331,7 @@
 .pc-details p {
   font-weight: 600;
   position: relative;
-  top: -12px;
+  top: 12px;
   white-space: nowrap;
   font-size: 16px;
   margin: 0 auto;
