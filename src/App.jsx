@@ -6,7 +6,7 @@ function App() {
   return (
     <div style={{ display: "flex", justifyContent:"center", padding: "50px" }}>
       <ProfileCard                
-        avatarUrl="https://raw.githubusercontent.com/rissss21/portofolio/refs/heads/main/public/assets/faris.png"
+        avatarUrl="/public/1762677472789.png"
         name="AZKA ARRODHI"
         title="Beginner Developer"
         handle="azkaarrodhi"
