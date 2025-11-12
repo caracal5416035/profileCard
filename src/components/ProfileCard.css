@@ -320,11 +320,10 @@
 }
 
 .pc-details h3 {
-  font-weight: 600;
+  font-weight: 700;
   margin: 0;
   font-size: min(4.5svh, 2em);
   font-family: "Poppins", sans-serif;
-  margin: 0;
   background-image: linear-gradient(to bottom, #fff, #6f6fbe);
   background-size: 1em 1.5em;
   -webkit-text-fill-color: transparent;
@@ -335,7 +334,6 @@
 .pc-details p {
   font-weight: 500;
   position: relative;
-  top: 2px;
   font-family: "Poppins", sans-serif;
   white-space: nowrap;
   font-size: 15px;
