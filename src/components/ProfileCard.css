@@ -337,7 +337,7 @@
   font-family: "Poppins", sans-serif;
   white-space: nowrap;
   font-size: 15px;
-  margin: -5px 0 auto;
+  margin: -5px auto auto;
   width: min-content;
   background-image: linear-gradient(to bottom, #fff, #4a4ac0);
   background-size: 1em 1.5em;
