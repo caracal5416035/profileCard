@@ -8,7 +8,7 @@ function App() {
       <ProfileCard                
         avatarUrl="https://azkaarrodhi.vercel.app/1762748045755.png"
         name="AZKA ARRODHI"
-        title="Beginner Developer"
+        title="Beginner Frontend Dev"
         handle="azkaarrodhi"
         status="Online"
         contactText="Contact Me"
