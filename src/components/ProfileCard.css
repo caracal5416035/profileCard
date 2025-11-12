@@ -333,9 +333,10 @@
 }
 
 .pc-details p {
-  font-weight: 600;
+  font-weight: 500;
   position: relative;
-  top: 4px;
+  top: 2px;
+  font-family: "Poppins", sans-serif;
   white-space: nowrap;
   font-size: 15px;
   margin: 0 auto;
