@@ -13,14 +13,8 @@ function App() {
         status="Online"
         contactText="Contact Me"
         onContactClick={() => {
-  const section = document.querySelector("#contact");
-
-  if (section) {
-    section.scrollIntoView({ behavior: "smooth" });
-  } else {
-    window.location.href = "https://azkaarrodhi.vercel.app/#contact";
-  }
-}}
+  window.parent.postMessage({ goTo: "contact" }, "*");
+        }}
      />
     </div>
   );
