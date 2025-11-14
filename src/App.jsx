@@ -14,10 +14,11 @@ function App() {
         contactText="Contact Me"
         onContactClick={() => {
   const section = document.querySelector("#contact");
+
   if (section) {
     section.scrollIntoView({ behavior: "smooth" });
   } else {
-    window.location.hash = "https://azkaarrodhi.vercel.app/#contact"; // fallback kalau belum ada elemen #contact
+    window.location.href = "https://azkaarrodhi.vercel.app/#contact";
   }
 }}
      />
