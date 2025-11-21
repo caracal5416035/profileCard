@@ -30,7 +30,7 @@
 
 .pc-card-wrapper {
   position: absolute;
-  top: 45px; /* jarak dari atas */
+  top: 40px; /* jarak dari atas */
   left: 50%;
   transform: translateX(-50%); /* agar benar-benar di tengah horizontal */
 }
