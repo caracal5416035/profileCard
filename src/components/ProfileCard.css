@@ -99,7 +99,7 @@
 .pc-card.active {
   transition: none;
   box-shadow: none;
-  transform: translate3d(0, 0, 10px) rotateX(var(--rotate-y)) rotateY(var(--rotate-x));
+  transform: translate3d(0, 0, 22px) rotateX(var(--rotate-y)) rotateY(var(--rotate-x));
 }
 
 .pc-card * {
