@@ -73,7 +73,7 @@
     calc((var(--pointer-from-top) * 20px) - 6px)
     20px -5px;
   transition: transform 1s ease;
-  transform: translate3d(0, 0, 5px) rotateX(0deg) rotateY(0deg);
+  transform: translate3d(0, 0, 30px) rotateX(0deg) rotateY(0deg);
   background-size: 100% 100%;
   background-position: 0 0, 0 0, 50% 50%, 0 0;
   background-image: radial-gradient(
