@@ -105,7 +105,7 @@
 .pc-card * {
   display: grid;
   grid-area: 1/-1;
-  border-radius: var(--card-radius);
+  border-radius: 15px;
   transform: translate3d(0, 0, 0.1px);
   pointer-events: none;
 }
@@ -366,4 +366,34 @@
     background-position: 0 var(--background-y), 90% 90%, center;
   }
 }
+/* BOOST 3D UNTUK LAYAR KECIL (HP) */
+@media (max-width: 480px) {
 
+  /* Perbesar rotasi */
+  :root {
+    --rotate-x: calc(var(--rotate-x) * 1.6);
+    --rotate-y: calc(var(--rotate-y) * 1.6);
+  }
+
+  /* Efek parallax lebih kuat */
+  .pc-content {
+    transform: translate3d(
+      calc(var(--pointer-from-left) * -12px + 6px),
+      calc(var(--pointer-from-top) * -12px + 6px),
+      0.3px
+    ) !important;
+  }
+
+  /* Shadow lebih dalam */
+  .pc-card {
+    box-shadow: rgba(0, 0, 0, 0.9)
+      calc((var(--pointer-from-left) * 16px) - 6px)
+      calc((var(--pointer-from-top) * 28px) - 10px)
+      26px -6px;
+  }
+
+  /* Perspektif kecil → efek 3D lebih tajam */
+  .pc-card-wrapper {
+    perspective: 350px;
+  }
+}
